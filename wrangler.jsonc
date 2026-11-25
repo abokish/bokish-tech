@@ -1,0 +1,11 @@
+// אתר סטטי של בוקיש-טק – Cloudflare Workers (static assets).
+// הכתובת: https://bokish-tech.<account>.workers.dev (וכשיהיה דומיין – מחברים אותו ב-Settings ← Domains & Routes)
+{
+  "name": "bokish-tech",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}

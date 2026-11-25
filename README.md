@@ -3,9 +3,9 @@
 דף הנחיתה של בוקיש-טק – בית תוכנה משפחתי בערבה. אתר סטטי (HTML אחד ותמונות), בלי שלב בנייה.
 
 ## עדכון
-עורכים את `index.html` ודוחפים ל-`main`. Cloudflare Pages מעלה את הגרסה החדשה תוך כדקה.
+עורכים את `public/index.html` ודוחפים ל-`main`. Cloudflare (Workers Builds) מעלה את הגרסה החדשה תוך כדקה.
 
-## הקמה ב-Cloudflare Pages (פעם אחת)
-Workers & Pages ← Create ← Pages ← Import an existing Git repository ← `bokish-tech`.
-Framework preset: None · Build command: ריק · Build output directory: `/`.
-הכתובת: https://bokish-tech.pages.dev
+## Cloudflare
+פרויקט Worker בשם `bokish-tech` שמחובר למאגר (Deploy command: `npx wrangler deploy`), לפי `wrangler.jsonc`.
+הכתובת: https://bokish-tech.royal-truth-5187.workers.dev (צריך ש-workers.dev יהיה Enabled ב-Settings ← Domains & Routes).
+קבצי האתר נמצאים בתיקייה `public/`.
